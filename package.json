@@ -1,7 +1,7 @@
 {
 	"name": "@rbxts/reflector",
 	"version": "1.0.0",
-	"description": "Metadata Reflection API for Roblox-TS",
+	"description": "Reflector: Metadata Reflection API for Roblox-TS",
 	"main": "out/init.lua",
 	"scripts": {
 		"build": "rbxtsc",
