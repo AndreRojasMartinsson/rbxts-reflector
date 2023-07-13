@@ -1,0 +1,50 @@
+{
+	"name": "@rbxts/reflection",
+	"version": "1.0.0",
+	"description": "Metadata Reflection API for Roblox-TS",
+	"main": "out/init.lua",
+	"scripts": {
+		"build": "rbxtsc",
+		"watch": "rbxtsc -w",
+		"prepublishOnly": "pnpm run build"
+	},
+	"keywords": [
+		"Reflect",
+		"Metadata",
+		"Roblox",
+		"TS",
+		"Roblox-TS",
+		"RootEntry"
+	],
+	"author": {
+		"name": "RootEntry",
+		"url": "https://github.com/AndreRojasMartinsson"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AndreRojasMartinsson/rbxts-reflection"
+	},
+	"homepage": "https://github.com/AndreRojasMartinsson/rbxts-reflection",
+	"readme": "https://github.com/AndreRojasMartinsson/rbxts-reflection/blob/main/README.md",
+	"license": "MIT",
+	"types": "out/index.d.ts",
+	"files": [
+		"out",
+		"!**/*.tsbuildinfo"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"devDependencies": {
+		"@rbxts/compiler-types": "2.1.1-types.0",
+		"@rbxts/types": "^1.0.705",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"eslint": "^8.44.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-roblox-ts": "^0.0.35",
+		"prettier": "^3.0.0",
+		"typescript": "^4.9.5"
+	}
+}
