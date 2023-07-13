@@ -25,7 +25,7 @@
 		"url": "https://github.com/AndreRojasMartinsson/rbxts-reflection"
 	},
 	"homepage": "https://github.com/AndreRojasMartinsson/rbxts-reflection",
-	"readme": "https://github.com/AndreRojasMartinsson/rbxts-reflection/blob/main/README.md",
+	"readme": "https://raw.githubusercontent.com/AndreRojasMartinsson/rbxts-reflection/main/README.md",
 	"license": "MIT",
 	"types": "out/index.d.ts",
 	"files": [
