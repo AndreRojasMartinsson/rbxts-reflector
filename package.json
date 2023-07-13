@@ -1,5 +1,5 @@
 {
-	"name": "@rbxts/reflection",
+	"name": "@rbxts/reflector",
 	"version": "1.0.0",
 	"description": "Metadata Reflection API for Roblox-TS",
 	"main": "out/init.lua",
@@ -22,10 +22,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/AndreRojasMartinsson/rbxts-reflection"
+		"url": "https://github.com/AndreRojasMartinsson/rbxts-reflector"
 	},
-	"homepage": "https://github.com/AndreRojasMartinsson/rbxts-reflection",
-	"readme": "https://raw.githubusercontent.com/AndreRojasMartinsson/rbxts-reflection/main/README.md",
+	"homepage": "https://github.com/AndreRojasMartinsson/rbxts-reflector",
+	"readme": "https://raw.githubusercontent.com/AndreRojasMartinsson/rbxts-reflector/main/README.md",
 	"license": "MIT",
 	"types": "out/index.d.ts",
 	"files": [
